@@ -53,7 +53,7 @@
       ansible.builtin.debug:
         msg: "{{ status }}"
 
-    - name: role level variables
+    - name: Role level variables
       hosts: localhost
       roles:
         - demo
