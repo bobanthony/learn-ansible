@@ -1,1 +1,6 @@
--name
+name: demo play 1
+hosts: all
+tasks:
+  -name: print hello
+  ansible.builtin.debug:
+    msg: echo hello
